@@ -1,10 +1,10 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap, LuSchool, LuBriefcase } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import exploraStaysSS from "@/public/explora-stays-ss.png";
+import corpcommentImg from "@/public/storyspace.png";
+import rmtdevImg from "@/public/profile.png";
+import wordanalyticsImg from "@/public/paytm-wallet.png";
+import exploraStaysSS from "@/public/travelnotes.png";
 
 export const links = [
   {
@@ -62,27 +62,29 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+
   {
-    title: "Blogging Web App",
+    title: "PayTMWallet.com",
+    description:
+      "The paytm-wallet project is a digital wallet application where users sign in to securely transfer money to each other.",
+    tags: [
+      "Next",
+      "express",
+      "turborepo",
+      "Prisma ORM",
+      "Postgres",
+      "Tailwind"
+    ],
+    imageUrl: wordanalyticsImg,
+    linkToProject: "https://github.com/Manisha01407/paytm-wallet",
+  },
+  {
+    title: "StorySpace Web App",
     description:
       "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
     tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL", "Serverless"],
     imageUrl: corpcommentImg,
-    linkToProject: "https://medium-clone-five-dusky.vercel.app/",
-  },
-  {
-    title: "ChatKaro.com",
-    description:
-      "A public web app for quick chat on text. It allows you to send messages in real time and also share images.",
-    tags: [
-      "React",
-      "Tailwind CSS",
-      "Firebase",
-      "React-Router-Dom",
-      "Context API",
-    ],
-    imageUrl: wordanalyticsImg,
-    linkToProject: "https://chat-app-react-firebase-rosy.vercel.app/",
+    linkToProject: "https://thought-crafer-blogging.vercel.app/",
   },
   {
     title: "Personal Portfolio",
@@ -97,6 +99,19 @@ export const projectsData = [
     ],
     imageUrl: rmtdevImg,
     linkToProject: "https://portfolio-website-steel-two.vercel.app/",
+  },
+  {
+    title: "TravallerNote",
+    description:
+      "WanderNotes is an application that allows users to document their travel history and notes.",
+    tags: [
+      "React",
+      "CSS Modules",
+      "Redux",
+      "CustomHooks",
+    ],
+    imageUrl: exploraStaysSS,
+    linkToProject: "https://manisha01407.github.io/WanderNotes/",
   },
 ] as const;
 
