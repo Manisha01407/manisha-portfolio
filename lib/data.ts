@@ -98,7 +98,7 @@ export const projectsData = [
       "TypeScript",
     ],
     imageUrl: rmtdevImg,
-    linkToProject: "https://portfolio-website-steel-two.vercel.app/",
+    linkToProject: "https://manisha-portfolio-pi.vercel.app/",
   },
   {
     title: "TravallerNote",
