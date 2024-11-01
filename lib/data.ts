@@ -72,8 +72,9 @@ export const projectsData = [
       "express",
       "turborepo",
       "Prisma ORM",
-      "Postgres",
-      "Tailwind"
+      "PostgreSQL",
+      "Docker",
+      "NextAuth.js"
     ],
     imageUrl: wordanalyticsImg,
     linkToProject: "https://github.com/Manisha01407/paytm-wallet",
@@ -82,7 +83,7 @@ export const projectsData = [
     title: "StorySpace Web App",
     description:
       "The Medium.com Clone, with React and Cloudflare Workers, enables secure sign-in, content creation, and discovery of articles.",
-    tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL", "Serverless"],
+    tags: ["ReactJS", "JWT", "Typescript", "PostgreSQL", "Serverless", "Zod"],
     imageUrl: corpcommentImg,
     linkToProject: "https://thought-crafer-blogging.vercel.app/",
   },
