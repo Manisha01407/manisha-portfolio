@@ -74,7 +74,8 @@ export const projectsData = [
       "Prisma ORM",
       "PostgreSQL",
       "Docker",
-      "NextAuth.js"
+      "NextAuth.js",
+      "CI/CD"
     ],
     imageUrl: wordanalyticsImg,
     linkToProject: "https://github.com/Manisha01407/paytm-wallet",
@@ -155,4 +156,5 @@ export const skillsData = [
   "backend communication",
   "Websockets",
   "Radis",
+  "kafka"
 ] as const;
