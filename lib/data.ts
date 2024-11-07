@@ -156,5 +156,6 @@ export const skillsData = [
   "backend communication",
   "Websockets",
   "Radis",
-  "kafka"
+  "kafka",
+  "nginx/Reverse proxy"
 ] as const;
