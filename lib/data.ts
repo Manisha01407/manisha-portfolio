@@ -35,7 +35,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Frontend Developer Intern",
+    title: "Cognifyz Technologies,Frontend Developer Intern",
     location: "Hyderabad, India",
     description:
       "I had the opportunity to work on several projects focused on frontend web development, which allowed me to apply and expand my technical skills in a professional setting.",
